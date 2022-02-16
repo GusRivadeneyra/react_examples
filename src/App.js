@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { Picture } from './components/picture'
 
 function App() {
+  const image1 = 'https://thumbs.dreamstime.com/b/chiste-marr%C3%B3n-caminata-de-chismes-marrones-sobre-fondo-blanco-195588706.jpg'
+  const img2 = 'https://img.traveltriangle.com/blog/wp-content/uploads/2018/07/shutterstock_226914400.jpg'
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +20,10 @@ function App() {
         >
           Learn React
         </a>
+        below my pic
+        <Picture fuente={image1} />
+
+        <Picture fuente={img2} />
       </header>
     </div>
   );
