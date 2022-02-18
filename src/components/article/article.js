@@ -13,7 +13,7 @@ export function Article(props) {
             <Header size="medium">
                 {post.subtitle}
             </Header>
-            <Header size="small">
+            <Header size="small" >
                 {post.author.media}
             </Header>
             <Header >
