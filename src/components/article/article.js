@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Header } from './header'
-import { Paragraph } from "./paragraph";
+// import { Paragraph } from "./paragraph";
 
 export function Article(props) {
     const post = props.content
@@ -27,7 +27,7 @@ export function Article(props) {
             <Paragraph text={post.developing5} textSize={32}/> */}
             
                
-            {post.paragraphs.map((pargp) => pargp)  }
+            {post.paragraphs.map((pargp) => pargp)}
 
         </>
     )

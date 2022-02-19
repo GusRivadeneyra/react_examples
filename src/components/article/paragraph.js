@@ -8,7 +8,6 @@ export function Paragraph({ text, textSize = 18, children,}) {
             padding: 24,
             margin: 16,
             fontSize: textSize,
-            display: "flex",
         }}>
             <p style={{
                 fontSize: '18px',

@@ -14,7 +14,7 @@ export function Header({ size, children }) {
             <h2>
                 {children}
             </h2>
-        ) 
+        )
     }
     if (size === 'large') {
         return (
